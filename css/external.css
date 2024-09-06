@@ -1,0 +1,7 @@
+h2{
+    color:black;
+    text: indent 100px;
+    font-size: large;
+    text-transform: capitalize;
+    font-style: italic;
+}

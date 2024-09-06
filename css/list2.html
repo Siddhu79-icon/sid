@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.menu-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.menu-card h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.veg {
+    background-color: #eaffea;
+}
+
+.non-veg {
+    background-color: #ffecec;
+        }
+    </style>
+    <title>Menu Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu-card">
+        <h1>Menu</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Veg Items -->
+                <tr class="veg">
+                    <td>Veg</td>
+                    <td>Veg Burger</td>
+                    <td>50rs</td>
+                </tr>
+                <tr class="veg">
+                    <td>Veg</td>
+                    <td>Veg biryani</td>
+                    <td>70rs</td>
+                </tr>
+
+                <!-- Non-Veg Items -->
+                <tr class="non-veg">
+                    <td>Non-Veg</td>
+                    <td>Chicken Wings</td>
+                    <td>150rs</td>
+                </tr>
+                <tr class="non-veg">
+                    <td>Non-Veg</td>
+                    <td>mutton biryani</td>
+                    <td>500rs</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
